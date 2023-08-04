@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('./BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('./Oswald-VariableFont_wght.ttf') format('truetype');
+}
+
+.nav-container {
+    margin: 0px 100px;
+}
+
+#doctor-qualified {
+    max-height: 600px;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-container {
+        margin: 0px 0px;
+    }
+    #doctor-qualified {
+        max-height: 450px;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.bebas-h1 {
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: "Bebas Neue";
+}
+
+section {
+    padding: 100px 0px;
+}
+
+#hero {
+    padding: 0;
+}
+
+#whatwedo p{
+    font-size: 1.2rem;
+}
+
+#coverage {
+    background-color: #be1e2d;
+    color: white;
+}
+
+#coverage p {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#about h1{
+    text-transform: uppercase;
+    color: #00b5e6;
+}
+
+#contact {
+    background-color: #00b5e6;
+    color: white;
+}
+
+#contact h1{
+    text-transform: uppercase;
+}
+
+#contact p{
+    margin-bottom: 4px;
+}
